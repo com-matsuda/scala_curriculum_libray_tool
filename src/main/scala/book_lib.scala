@@ -36,7 +36,8 @@ object booka_lib {
       //main execute
       println("[Execute] List all books")
       var results_list = showbooklist(db_path,db_user,db_pass)
-      results_list.foreach(lib_book => println(lib_book.title))
+      println("=======BOOKLIST======")
+      results_list.foreach(lib_book => println(lib_book.title ))
     }
     else {
       //unexpected argument

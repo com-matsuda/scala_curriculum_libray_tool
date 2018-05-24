@@ -4,6 +4,10 @@ version := "0.1"
 
 scalaVersion := "2.12.6"
 
+//showSuccess := false
+//outputStrategy := Some(StdoutOutput)
+
+
 // Scala 2.10, 2.11, 2.12
 libraryDependencies ++= Seq(
   "org.scalikejdbc" %% "scalikejdbc"       % "3.2.2",
