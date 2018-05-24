@@ -1,0 +1,1 @@
+scalac -classpath /Users/matsudashouhei/IdeaProjects/COM/caricura/book_tool/src/main/scala/target/scala-2.12/classes -bootclasspath /Users/matsudashouhei/.sbt/boot/scala-2.12.6/lib/scala-library.jar /Users/matsudashouhei/IdeaProjects/COM/caricura/book_tool/src/main/scala/book_lib.scala
