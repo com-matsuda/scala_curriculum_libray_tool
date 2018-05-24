@@ -1,0 +1,8 @@
+2018-05-24 14:48:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: テーブル "BOOK_LIST" が見つかりません
+Table "BOOK_LIST" not found; SQL statement:
+select name from book_list [42102-197]
+2018-05-24 14:50:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: テーブル "BOOK_LIST" が見つかりません
+Table "BOOK_LIST" not found; SQL statement:
+select title from book_list [42102-197]
